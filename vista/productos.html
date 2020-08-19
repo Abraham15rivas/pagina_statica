@@ -1,204 +1,211 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Productos</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, user-scale=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
-        
-        <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    </head>
-    <body>
-        <header>
-            <div class="menu">
-                <nav id="navegacion-menu">
-                    <div class="logo">
-                        <a href="../index.html"><img src="../img/2.jpg"></a>
-                    </div>
-                    <div class="icono" id="icono">
-                        <!--<span>&#9776;</span>-->
-                        <h3>X</h3>
-                    </div>
-                    <div class="navegacion enlaces uno" id="enlaces">
-                        <a href="trabajo.html" class="activar">¿Buscas Trabajo?</a>
-                        <a href="productos.html">Productos</a>
-                        <a href="catering.html">Catering</a>
-                        <a href="contactos.html">Contactos</a>
-                        <a href="sistema/login.php">login</a>
-                        <a href="compras/vista/index.php">Compras</a>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <div class="slide-contenedor">
-            <div class="miSlider fade">
-                <img src="../img/3.jpg">
-            </div>
-            <div class="miSlider fade">
-                <img src="../img/4.jpg">
-            </div>
-            <div class="miSlider fade">
-                <img src="../img/5.jpg">
-            </div>
-            <div class="direcciones">
-                <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
-                <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
-            </div>
-            <div class="barras">
-                <span class="barra activo" onclick="posicionSlide(1)"></span>
-                <span class="barra" onclick="posicionSlide(2)"></span>
-                <span class="barra" onclick="posicionSlide(3)"></span>
-            </div>
+
+<head>
+    <title>Productos</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scale=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <nav id="navegacion-menu">
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/2.jpg"></a>
+                </div>
+                <div class="icono" id="icono">
+                    <span id="span">&#9776;</span>
+                    <h3 style="display: none" id="cerrar">X</h3>
+                </div>
+                <div class="navegacion enlaces uno" id="enlaces">
+                    <a href="trabajo.html" class="activar">¿Buscas Trabajo?</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="catering.html">Catering</a>
+                    <a href="contactos.html">Contactos</a>
+                    <a href="sistema/login.php">login</a>
+                    <a href="compras/vista/index.php">Compras</a>
+                </div>
+            </nav>
         </div>
-        <div class="contenido-productos">
-            <div class="productos">
-                <h1>Nuestros Productos</h1>
-                <div class="categoria">
-                    <div class="cafeteria">
-                        <h3>Cafeteria</h3>
-                        <div class="info-cafeteria">
-                            <div class="img-cafeteria">
-                                <img src="../img/3.jpg">
-                            </div>
-                            <div class="concepto">
-                                <div class="descripcion-cafeteria">
-                                    <p>Un café que podrás disfrutar con los 5 sentidos.</p>
-                                </div>
-                                <div class="descripcion-cafeteria">
-                                    <p>En Maravillas del Pan se puede disfrutar nueva marca de café. Café con personalidad trabajado con fórmulas propias y exclusivas. Cada uno de nuestros cafés se traduce en un aroma y sabor irrepetible.</p>
-                                </div>
-                                <div class="descripcion-cafeteria">
-                                    <p>Tenemos una gran variedad de cafés, des del café solo intenso, hasta el Capuchino más dulce con una gran variedad de sabores.</p>
-                                </div>
-                                <div class="descripcion-cafeteria">
-                                    <p>Disponemos leche entera, desnatada, soja, sin lactosa y avena. Una gran variedad de leches para todos los gustos y o personas intolerantes.</p>
-                                </div>
-                            </div>
+    </header>
+    <div class="slide-contenedor">
+        <div class="miSlider fade">
+            <img src="../img/3.jpg">
+        </div>
+        <div class="miSlider fade">
+            <img src="../img/4.jpg">
+        </div>
+        <div class="miSlider fade">
+            <img src="../img/5.jpg">
+        </div>
+        <div class="direcciones">
+            <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+            <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="barras">
+            <span class="barra activo" onclick="posicionSlide(1)"></span>
+            <span class="barra" onclick="posicionSlide(2)"></span>
+            <span class="barra" onclick="posicionSlide(3)"></span>
+        </div>
+    </div>
+    <div class="contenido-productos">
+        <div class="productos">
+            <h1>Nuestros Productos</h1>
+            <div class="categoria">
+                <div class="cafeteria">
+                    <h3>Cafeteria</h3>
+                    <div class="info-cafeteria">
+                        <div class="img-cafeteria">
+                            <img src="../img/3.jpg">
                         </div>
-                    </div>
-                    <div class="panaderia">
-                        <h3>Panaderia</h3>
-                        <div class="info-panaderia">
-                            <div class="concepto">
-                                <div class="descripcion-panaderia">
-                                    <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum quos accusantium, excepturi alias.</p>
-                                </div>
-                                <div class="descripcion-panaderia">
-                                    <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum quos accusantium, excepturi alias.</p>
-                                </div>                                
+                        <div class="concepto">
+                            <div class="descripcion-cafeteria">
+                                <p>Un café que podrás disfrutar con los 5 sentidos.</p>
                             </div>
-                            <div class="img-panaderia">
-                                <img src="../img/2.jpg">
+                            <div class="descripcion-cafeteria">
+                                <p>En Maravillas del Pan se puede disfrutar nueva marca de café. Café con personalidad trabajado con fórmulas propias y exclusivas. Cada uno de nuestros cafés se traduce en un aroma y sabor irrepetible.</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="bebidas">
-                        <h3>Bebidas</h3>
-                        <div class="info-bebidas">
-                            <div class="img-bebidas">
-                                <img src="../img/16.jpg">
+                            <div class="descripcion-cafeteria">
+                                <p>Tenemos una gran variedad de cafés, des del café solo intenso, hasta el Capuchino más dulce con una gran variedad de sabores.</p>
                             </div>
-                            <div class="concepto">
-                                <div class="descripcion-bebidas">
-                                    <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum quos accusantium, excepturi alias.</p>
-                                </div>
-                                <div class="descripcion-bebidas">
-                                    <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum quos accusantium, excepturi alias.</p>
-                                </div>                                
-                            </div>
-                        </div>
-                    </div>
-                    <div class="pasteleria">
-                        <h3>Pasteleria</h3>
-                        <div class="info-pasteleria">
-                            <div class="concepto">
-                                <div class="descripcion-pasteleria">
-                                    <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum quos accusantium, excepturi alias.</p>
-                                </div>
-                                <div class="descripcion-pasteleria">
-                                    <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum quos accusantium, excepturi alias.</p>
-                                </div>                                
-                            </div>
-                            <div class="img-pasteleria">
-                                <img src="../img/14.jpg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="cofiteria">
-                        <h3>Cofiteria</h3>
-                        <div class="info-cofiteria">
-                            <div class="img-cofiteria">
-                                <img src="../img/17.gif">
-                            </div>
-                            <div class="concepto">
-                                <div class="descripcion-cofiteria">
-                                    <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum quos accusantium, excepturi alias.</p>
-                                </div>
-                                <div class="descripcion-cofiteria">
-                                    <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum quos accusantium, excepturi alias.</p>
-                                </div>                                
+                            <div class="descripcion-cafeteria">
+                                <p>Disponemos leche entera, desnatada, soja, sin lactosa y avena. Una gran variedad de leches para todos los gustos y o personas intolerantes.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="especiales">
-                    <h3>Pedidos Especiales</h3>
-                    <div class="contenedor-especial">
-                        <div class="info-especial">
-                            <img src="../img/especial-1.jpg">
-                            <h3>Pastel Especial Modelo 1</h3>
+                <div class="panaderia">
+                    <h3>Panaderia</h3>
+                    <div class="info-panaderia">
+                        <div class="concepto">
+                            <div class="descripcion-panaderia">
+                                <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum
+                                    quos accusantium, excepturi alias.</p>
+                            </div>
+                            <div class="descripcion-panaderia">
+                                <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum
+                                    quos accusantium, excepturi alias.</p>
+                            </div>
                         </div>
-                        <div class="info-especial">
-                            <img src="../img/especial-2.jpg">
-                            <h3>Pastel Especial Modelo 2</h3>
+                        <div class="img-panaderia">
+                            <img src="../img/2.jpg">
                         </div>
-                        <div class="info-especial">
-                            <img src="../img/especial-3.jpg">
-                            <h3>Pastel Especial Modelo 3</h3>
+                    </div>
+                </div>
+                <div class="bebidas">
+                    <h3>Bebidas</h3>
+                    <div class="info-bebidas">
+                        <div class="img-bebidas">
+                            <img src="../img/16.jpg">
                         </div>
-                        <div class="info-especial">
-                            <img src="../img/especial-4.jpg">
-                            <h3>Pastel Especial Modelo 4</h3>
+                        <div class="concepto">
+                            <div class="descripcion-bebidas">
+                                <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum
+                                    quos accusantium, excepturi alias.</p>
+                            </div>
+                            <div class="descripcion-bebidas">
+                                <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum
+                                    quos accusantium, excepturi alias.</p>
+                            </div>
                         </div>
-                        <div class="info-especial">
-                            <img src="../img/especial-5.jpg">
-                            <h3>Pastel Especial Modelo 5</h3>
+                    </div>
+                </div>
+                <div class="pasteleria">
+                    <h3>Pasteleria</h3>
+                    <div class="info-pasteleria">
+                        <div class="concepto">
+                            <div class="descripcion-pasteleria">
+                                <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum
+                                    quos accusantium, excepturi alias.</p>
+                            </div>
+                            <div class="descripcion-pasteleria">
+                                <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum
+                                    quos accusantium, excepturi alias.</p>
+                            </div>
+                        </div>
+                        <div class="img-pasteleria">
+                            <img src="../img/14.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="cofiteria">
+                    <h3>Cofiteria</h3>
+                    <div class="info-cofiteria">
+                        <div class="img-cofiteria">
+                            <img src="../img/17.gif">
+                        </div>
+                        <div class="concepto">
+                            <div class="descripcion-cofiteria">
+                                <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum
+                                    quos accusantium, excepturi alias.</p>
+                            </div>
+                            <div class="descripcion-cofiteria">
+                                <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum
+                                    quos accusantium, excepturi alias.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="redes-sociales">
-                <h2>Redes Sociales</h2>
-                <div class="fondo-social">
-                    <div class="link-redes">
-                        <a href="#" class="icon-facebook"></a>
-                        <a href="#" class="icon-twitter"></a>
-                        <a href="#" class="icon-youtube"></a>
-                        <a href="#" class="icon-instagram"></a>
-                        <a href="#" class="icon-tumblr"></a>
-                        <a href="#" class="icon-linkedin"></a>
+            <div class="especiales">
+                <h3>Pedidos Especiales</h3>
+                <div class="contenedor-especial">
+                    <div class="info-especial">
+                        <img src="../img/especial-1.jpg">
+                        <h3>Pastel Especial Modelo 1</h3>
+                    </div>
+                    <div class="info-especial">
+                        <img src="../img/especial-2.jpg">
+                        <h3>Pastel Especial Modelo 2</h3>
+                    </div>
+                    <div class="info-especial">
+                        <img src="../img/especial-3.jpg">
+                        <h3>Pastel Especial Modelo 3</h3>
+                    </div>
+                    <div class="info-especial">
+                        <img src="../img/especial-4.jpg">
+                        <h3>Pastel Especial Modelo 4</h3>
+                    </div>
+                    <div class="info-especial">
+                        <img src="../img/especial-5.jpg">
+                        <h3>Pastel Especial Modelo 5</h3>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <!-- Slider -->
-        
-        <script type="text/javascript" src="../js/main-slider.js"></script>
-        
-        <!-- Menu adaptable a dispositivo Movil -->
-        
-        <script type="text/javascript" src="../js/main-menu-movil.js"></script>
-        
-        <!-- Menu con efecto Scroll -->
-        
-        <script type="text/javascript" src="../js/main-menu-scroll.js"></script>
-    </body>
+        <div class="redes-sociales">
+            <h2>Redes Sociales</h2>
+            <div class="fondo-social">
+                <div class="link-redes">
+                    <a href="#" class="icon-facebook"></a>
+                    <a href="#" class="icon-twitter"></a>
+                    <a href="#" class="icon-youtube"></a>
+                    <a href="#" class="icon-instagram"></a>
+                    <a href="#" class="icon-tumblr"></a>
+                    <a href="#" class="icon-linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Slider -->
+
+    <script type="text/javascript" src="../js/main-slider.js"></script>
+
+    <!-- Menu adaptable a dispositivo Movil -->
+
+    <script type="text/javascript" src="../js/main-menu-movil.js"></script>
+
+    <!-- Menu con efecto Scroll -->
+
+    <script type="text/javascript" src="../js/main-menu-scroll.js"></script>
+</body>
+
 </html>
 
 <style>
-    
-    
-    
+
 </style>
-
-

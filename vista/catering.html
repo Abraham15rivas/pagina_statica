@@ -1,185 +1,189 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Catering</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, user-scale=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
-        
-        <link rel="stylesheet" type="text/css" href="css/estilos.css">
-    </head>
-    <body>
-        <header>
-            <div class="menu">
-                <nav id="navegacion-menu">
-                    <div class="logo">
-                        <a href="../index.html"><img src="../img/2.jpg"></a>
-                    </div>
-                    <div class="icono" id="icono">
-                        <!--<span>&#9776;</span>-->
-                        <h3>X</h3>
-                    </div>
-                    <div class="navegacion enlaces uno" id="enlaces">
-                        <a href="trabajo.html" class="activar">¿Buscas Trabajo?</a>
-                        <a href="productos.html">Productos</a>
-                        <a href="catering.html">Catering</a>
-                        <a href="contactos.html">Contactos</a>
-                        <a href="sistema/login.php">login</a>
-                        <a href="compras/vista/index.php">Compras</a>
-                    </div>
-                </nav>
-            </div>
-        </header>
-        <div class="slide-contenedor">
-            <div class="miSlider fade">
-                <img src="../img/3.jpg">
-            </div>
-            <div class="miSlider fade">
-                <img src="../img/4.jpg">
-            </div>
-            <div class="miSlider fade">
-                <img src="../img/5.jpg">
-            </div>
-            <div class="direcciones">
-                <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
-                <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
-            </div>
-            <div class="barras">
-                <span class="barra activo" onclick="posicionSlide(1)"></span>
-                <span class="barra" onclick="posicionSlide(2)"></span>
-                <span class="barra" onclick="posicionSlide(3)"></span>
-            </div>
+
+<head>
+    <title>Catering</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scale=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <nav id="navegacion-menu">
+                <div class="logo">
+                    <a href="../index.html"><img src="../img/2.jpg"></a>
+                </div>
+                <div class="icono" id="icono">
+                    <span id="span">&#9776;</span>
+                    <h3 style="display: none" id="cerrar">X</h3>
+                </div>
+                <div class="navegacion enlaces uno" id="enlaces">
+                    <a href="trabajo.html" class="activar">¿Buscas Trabajo?</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="catering.html">Catering</a>
+                    <a href="contactos.html">Contactos</a>
+                    <a href="sistema/login.php">login</a>
+                    <a href="compras/vista/index.php">Compras</a>
+                </div>
+            </nav>
         </div>
-        <div class="contenido-catering">
-            <div class="catering">
-                <h1>Catering Para Eventos y Empresas</h1>
-                <div class="info-catering">
-                    <div class="info">
-                        <h3>Infomacion de Nuestra forma de trabajar en Eventos o Empresas</h3>
-                        <div class="concepto-catering">
-                            <div class="concepto">
-                                <div class="descripcion-catering">
-                                    <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum quos accusantium, excepturi alias.</p>
-                                </div>
-                                <div class="descripcion-catering">
-                                    <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum quos accusantium, excepturi alias.</p>
-                                </div>
-                                <div class="descripcion-catering">
-                                    <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum quos accusantium, excepturi alias.</p>
-                                </div>
+    </header>
+    <div class="slide-contenedor">
+        <div class="miSlider fade">
+            <img src="../img/3.jpg">
+        </div>
+        <div class="miSlider fade">
+            <img src="../img/4.jpg">
+        </div>
+        <div class="miSlider fade">
+            <img src="../img/5.jpg">
+        </div>
+        <div class="direcciones">
+            <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+            <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+        </div>
+        <div class="barras">
+            <span class="barra activo" onclick="posicionSlide(1)"></span>
+            <span class="barra" onclick="posicionSlide(2)"></span>
+            <span class="barra" onclick="posicionSlide(3)"></span>
+        </div>
+    </div>
+    <div class="contenido-catering">
+        <div class="catering">
+            <h1>Catering Para Eventos y Empresas</h1>
+            <div class="info-catering">
+                <div class="info">
+                    <h3>Infomacion de Nuestra forma de trabajar en Eventos o Empresas</h3>
+                    <div class="concepto-catering">
+                        <div class="concepto">
+                            <div class="descripcion-catering">
+                                <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum
+                                    quos accusantium, excepturi alias.</p>
+                            </div>
+                            <div class="descripcion-catering">
+                                <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum
+                                    quos accusantium, excepturi alias.</p>
+                            </div>
+                            <div class="descripcion-catering">
+                                <p>lorem upsum dolor sit amet consectetur adipisicing elit. Id est voluptate in corporis asperiores sequi adipisci neque eos, provident temporibus repregenderit aspernatur dignissimos perferendis maiores commodi coluptatum
+                                    quos accusantium, excepturi alias.</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="galeria">
-                <h2>Galeria de Fotos</h2>
-                <div class="fondo-slider">
-                    <div class="slide-galeria">
-                        <div class="Galeria-slider faces">
-                            <img src="../img/3.jpg">
-                            <div class="textoSlider">
-                                <h2>Nombre del Slider 1</h2>
-                                <h3>lorem upsum dolor sit amet consectetur adipisicing elit.</h3>
-                                <button type="button" class="botonInfo">Leer mas Informacion</button>
-                            </div>
-                        </div>
-                        <div class="Galeria-slider faces">
-                            <img src="../img/4.jpg">
-                            <div class="textoSlider">
-                                <h2>Nombre del Slider 2</h2>
-                                <h3>lorem upsum dolor sit amet consectetur adipisicing elit.</h3>
-                                <button type="button" class="botonInfo">Leer mas Informacion</button>
-                            </div>
-                        </div>
-                        <div class="Galeria-slider faces">
-                            <img src="../img/5.jpg">
-                            <div class="textoSlider">
-                                <h2>Nombre del Slider 3</h2>
-                                <h3>lorem upsum dolor sit amet consectetur adipisicing elit.</h3>
-                                <button type="button" class="botonInfo">Leer mas Informacion</button>
-                            </div>
-                        </div>
-                        <div class="puntos">
-                            <span class="punto accion" onclick="ubicacion(1)"></span>
-                            <span class="punto" onclick="ubicacion(2)"></span>
-                            <span class="punto" onclick="ubicacion(3)"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="redes-sociales">
-                <h2>Redes Socuales</h2>
-                <div class="fondo-social">
-                    <div class="link-redes">
-                        <a href="#" class="icon-facebook"></a>
-                        <a href="#" class="icon-twitter"></a>
-                        <a href="#" class="icon-youtube"></a>
-                        <a href="#" class="icon-instagram"></a>
-                        <a href="#" class="icon-tumblr"></a>
-                        <a href="#" class="icon-linkedin"></a>
                     </div>
                 </div>
             </div>
         </div>
-        
-        
-        <!-- Slider -->
-        
-        <script type="text/javascript" src="../js/main-slider.js"></script>
-        
-        <!-- Galeria Slider -->
-        
-        <script type="text/javascript">
-            
-            let pasable = 1;
-            visibleSlider(pasable);
-            
-            function adelantar(n){
-                visibleSlider(pasable+=n);
-            }
-            
-            function ubicacion(n){
-                visibleSlider(pasable=n);
-            }
-            
-            setInterval(function duracion(){
-                visibleSlider(pasable+=1);
-            },4000);
-            
-            function visibleSlider(n){
-                let i;
-                let moverSlider = document.getElementsByClassName('Galeria-slider');
-                let puntos = document.getElementsByClassName('punto');
-                
-                if(n > moverSlider.length){
-                    pasable = 1;
-                }
-                
-                if(n < 1){
-                    pasable = moverSlider.length;
-                }
-                
-                for(i = 0; i < moverSlider.length; i++){
-                    moverSlider[i].style.display = 'none';
-                }
-                
-                for(i = 0; i < puntos.length; i++){
-                    puntos[i].className = puntos[i].className.replace(' accion', '');
-                }
-                
-                moverSlider[pasable-1].style.display = 'block';
-                puntos[pasable-1].className += ' accion';
-                
+        <div class="galeria">
+            <h2>Galeria de Fotos</h2>
+            <div class="fondo-slider">
+                <div class="slide-galeria">
+                    <div class="Galeria-slider faces">
+                        <img src="../img/3.jpg">
+                        <div class="textoSlider">
+                            <h2>Nombre del Slider 1</h2>
+                            <h3>lorem upsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <button type="button" class="botonInfo">Leer mas Informacion</button>
+                        </div>
+                    </div>
+                    <div class="Galeria-slider faces">
+                        <img src="../img/4.jpg">
+                        <div class="textoSlider">
+                            <h2>Nombre del Slider 2</h2>
+                            <h3>lorem upsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <button type="button" class="botonInfo">Leer mas Informacion</button>
+                        </div>
+                    </div>
+                    <div class="Galeria-slider faces">
+                        <img src="../img/5.jpg">
+                        <div class="textoSlider">
+                            <h2>Nombre del Slider 3</h2>
+                            <h3>lorem upsum dolor sit amet consectetur adipisicing elit.</h3>
+                            <button type="button" class="botonInfo">Leer mas Informacion</button>
+                        </div>
+                    </div>
+                    <div class="puntos">
+                        <span class="punto accion" onclick="ubicacion(1)"></span>
+                        <span class="punto" onclick="ubicacion(2)"></span>
+                        <span class="punto" onclick="ubicacion(3)"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="redes-sociales">
+            <h2>Redes Socuales</h2>
+            <div class="fondo-social">
+                <div class="link-redes">
+                    <a href="#" class="icon-facebook"></a>
+                    <a href="#" class="icon-twitter"></a>
+                    <a href="#" class="icon-youtube"></a>
+                    <a href="#" class="icon-instagram"></a>
+                    <a href="#" class="icon-tumblr"></a>
+                    <a href="#" class="icon-linkedin"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Slider -->
+
+    <script type="text/javascript" src="../js/main-slider.js"></script>
+
+    <!-- Galeria Slider -->
+
+    <script type="text/javascript">
+        let pasable = 1;
+        visibleSlider(pasable);
+
+        function adelantar(n) {
+            visibleSlider(pasable += n);
+        }
+
+        function ubicacion(n) {
+            visibleSlider(pasable = n);
+        }
+
+        setInterval(function duracion() {
+            visibleSlider(pasable += 1);
+        }, 4000);
+
+        function visibleSlider(n) {
+            let i;
+            let moverSlider = document.getElementsByClassName('Galeria-slider');
+            let puntos = document.getElementsByClassName('punto');
+
+            if (n > moverSlider.length) {
+                pasable = 1;
             }
 
-        </script>
-        
-        <!-- Menu adaptable a dispositivo Movil -->
-        
-        <script type="text/javascript" src="../js/main-menu-movil.js"></script>
-        
-        <!-- Menu con efecto Scroll -->
-        
-        <script type="text/javascript" src="../js/main-menu-scroll.js"></script>
-    </body>
+            if (n < 1) {
+                pasable = moverSlider.length;
+            }
+
+            for (i = 0; i < moverSlider.length; i++) {
+                moverSlider[i].style.display = 'none';
+            }
+
+            for (i = 0; i < puntos.length; i++) {
+                puntos[i].className = puntos[i].className.replace(' accion', '');
+            }
+
+            moverSlider[pasable - 1].style.display = 'block';
+            puntos[pasable - 1].className += ' accion';
+
+        }
+    </script>
+
+    <!-- Menu adaptable a dispositivo Movil -->
+
+    <script type="text/javascript" src="../js/main-menu-movil.js"></script>
+
+    <!-- Menu con efecto Scroll -->
+
+    <script type="text/javascript" src="../js/main-menu-scroll.js"></script>
+</body>
+
 </html>
