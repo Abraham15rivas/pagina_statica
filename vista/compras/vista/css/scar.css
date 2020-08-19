@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: calibri;
+}
+
+.contenido{
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.contenido-total{
+    widows: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.contenido-productos{
+	padding: 10px;
+	margin: 10px;
+	width: 55%;
+}
+
+.tablaProducto{
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.cabezaCuerpo{
+	background: black;
+	color: #FFF;
+	cursor: pointer;
+	width: 100%;
+}
+
+.estructura > th{
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 70px;
+}
+
+.titulo{
+	font-size: 25px;
+	padding: 10px;
+	margin: 10px;
+	color: white;
+	background: black;
+}
+
+.productosCuerpo{
+	background: white;
+	width: 100%;
+}
+
+.agregar{
+	cursor: pointer;
+	padding: 10px;
+	text-align: center;
+	border: 0px;
+	color: white;
+	background: black;
+	transition: .5s ease-out;
+	border: 1px solid white;
+	/* background: linear-gradient(to bottom right, #3a33a2 0%, #62e3a6 100%); */
+}
+
+.agregar:hover{
+	color: black;
+	background: white;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+
+.cantidad{
+	cursor: pointer;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.estructura-productos{
+	color: white;
+	background: black;
+}
+
+.estructura-productos > th{
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 70px;
+}
+
+tr > td{
+	padding: 10px;
+}
+
+.espacio{
+    padding-top: 50px;
+}
+
+/*------*/
+
+.contenido-carro{
+	padding: 10px;
+	margin: 10px;
+	width: 40%;
+}
+
+.tablaCarro{
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	text-align: center;
+	border-collapse: collapse;
+    
+}
+
+.cabezaCarro{
+	background: black;
+	color: #FFF;
+	cursor: pointer;
+	width: 100%;
+}
+
+.CarroCuerpo{
+	background: white;
+}
+
+.eliminar{
+	cursor: pointer;
+	padding: 10px;
+	text-align: center;
+	border: 0px;
+	color: white;
+	background: black;
+	transition: .5s ease-out;
+	border: 1px solid white;
+	/* background: linear-gradient(to bottom right, #3a33a2 0%, #62e3a6 100%); */
+}
+
+.eliminar:hover{
+	color: black;
+	background: white;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+

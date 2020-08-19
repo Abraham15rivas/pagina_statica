@@ -1,0 +1,15 @@
+@import url(fontello.css);
+@import url(menu.css);
+@import url(slider.css);
+@import url(historia.css);
+@import url(mision-vision.css);
+@import url(ubicacion.css);
+@import url(galeria.css);
+@import url(redes-sociales.css);
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+

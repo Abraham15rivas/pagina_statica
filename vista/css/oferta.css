@@ -1,0 +1,35 @@
+.oferta-trabajo{
+    width: 100%;
+}
+    
+.oferta-trabajo > h2{
+    display: block;
+    width: 100%;
+    font-family: Edwardian Script ITC;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background: #6d6d6d;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    
+.informacion-oferta{
+    width: 100%;
+    padding: 10px;
+}
+    
+.descripcion > h3{
+    font-size: 20px;
+}
+    
+.lista-requisitos{
+    width: 50%;
+    margin: 10px auto;
+    padding: 10px;
+}
+    
+.lista-requisitos > li{
+    font-size: 15px;
+}

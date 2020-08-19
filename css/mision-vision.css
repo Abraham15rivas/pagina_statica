@@ -1,0 +1,192 @@
+.objetivo > h2{
+    display: block;
+    width: 100%;
+    font-family: Edwardian Script ITC;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background: #6d6d6d;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contenedor-mision-vision{
+    padding: 10px;
+    margin: -20px 0px;
+}
+
+.mision-vision{
+    display: flex;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+    
+.mision-panaderia{
+    width: 40%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 5px 5px 5px 0px black;
+    font-family: monospace;
+}
+    
+.mision-panaderia > h3{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px;
+    
+}
+    
+.mision-panaderia > img{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 50%;
+}
+    
+.mision-panaderia > p{
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+    
+.vision-panaderia{
+    width: 40%;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 5px 5px 5px 0px black;
+    font-family: monospace;
+}
+    
+.vision-panaderia > h3{
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    margin: 10px;
+}
+    
+.vision-panaderia > img{
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+    border-radius: 50%;
+}
+    
+.vision-panaderia > p{
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 750px){
+        
+        /* Historia */
+        
+        .historia-panaderia{
+            width: 100%;
+        }
+        
+        .historia-panaderia > h1{
+            width: 100%;
+        }
+        
+        .historia{
+            flex-wrap: wrap;
+        }
+        
+        .historia > img{
+            width: 250px;
+            height: 250px;
+            margin: 10px auto;
+            padding: 10px;
+        }
+        
+        .la-historia{
+            margin: 10px;
+        }
+        
+        .concepto-historia{
+            margin: 10px;
+            text-align: justify;
+        }
+        
+        .concepto-historia > h3{
+            font-size: 15px;
+        }
+        
+        /* Mision y Vision */
+        
+        .objetivo{
+            width: 100%;
+        }
+        
+        .objetivo > h2{
+            width: 100%;
+        }
+        
+        .mision-vision{
+            flex-wrap: wrap;
+            width: 75%;
+            display: block;
+            padding: 20px;
+        }
+        
+        .mision-panaderia{
+            width: 100%;
+        }
+    
+        .mision-panaderia > img{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .mision-panaderia > p{
+            font-size: 15px;
+        }
+        
+        .vision-panaderia{
+            width: 100%;
+        }
+
+        .vision-panaderia > img{
+            width: 200px;
+            height: 200px;
+        }
+        
+        .vision-panaderia > p{
+            font-size: 15px;
+        }
+        
+    }
+
+@media screen and (max-width: 350px){
+    .mision-vision{
+        width: 90%;
+    }
+    
+    .mision-panaderia > img{
+            width: 150px;
+            height: 150px;
+        }
+    
+    .vision-panaderia > img{
+            width: 150px;
+            height: 150px;
+        }
+}

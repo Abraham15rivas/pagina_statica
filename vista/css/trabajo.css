@@ -1,0 +1,88 @@
+.contenido-trabajo{
+    width: 100%;
+}
+    
+.trabajo > h1{
+    display: block;
+    width: 100%;
+    font-family: Edwardian Script ITC;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background: #6d6d6d;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    
+.informacion-oficial{
+    width: 100%;
+    padding: 10px;
+}
+    
+.descripcionTrabajo{
+    width: 75%;
+    margin: 10px auto;
+    padding: 10px;
+}
+    
+.descripcionTrabajo > h3{
+    margin: 10px;
+    font-family: monospace;
+}
+
+.descripcion{
+    text-align: center;
+    font-family: monospace;
+}
+
+ @media screen and (max-width: 750px){
+        .informacion-oficial{
+            width: 90%;
+            margin: auto;
+        }
+        
+        .descripcionTrabajo{
+            width: 85%;
+            padding: 10px;
+        }
+     
+     .descripcion > h2{
+            padding: 10px;
+            text-align: center;
+        }
+        
+        .descripcionTrabajo > h3{
+            padding: 10px;
+        }
+        
+        .informacion-oferta{
+            width: 90%;
+            margin: auto;
+        }
+        
+        .lista-requisitos{
+            width: 85%;
+            
+            padding: 10px;
+        }
+        
+        .lista-requisitos > li{
+            padding: 20px;
+            width: 100%;
+            font-size: 20px;
+        }
+        
+    }
+
+@media screen and (max-width: 350px){
+    .descripcionTrabajo > h3{
+        padding: 10px;
+        font-size: 20px;
+    }
+    
+    .descripcionTrabajo{
+            width: 100%;
+            padding: 10px;
+        }
+}

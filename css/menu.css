@@ -1,0 +1,164 @@
+.icono{
+    display: none;
+}
+
+header nav{
+    width: 100%;
+    height: 50px;
+    background: #34495e;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0px;
+    transition: top 0.5s;
+    z-index: 100;
+    font-family: monospace;
+}
+
+.enlaces{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.enlaces a{
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: .7s ease-out;
+    text-decoration: none;
+    color: white;
+}
+
+.enlaces a:hover, .activar{
+    border-top: 2px solid coral;
+    border-bottom: 2px solid coral;
+}
+
+.navegacion > a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+nav .logo{
+    height: 100%;
+    margin-left: 100px;
+    background: white;
+}
+
+nav .logo > a{
+    height: 50px;
+    width: 100px;
+    vertical-align: top;
+    object-fit: cover;
+    height: inherit;
+}
+
+nav .logo > a > img{
+    height: 50px;
+    width: 100px;
+    vertical-align: top;
+    object-fit: cover;
+    height: inherit;
+}
+
+@media screen and (max-width: 1200px){
+    
+    .icono{
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        align-items: center;
+        color: white;
+        background: transparent;
+        padding: 20px;
+        cursor: pointer;
+        margin-right: 40px;
+        z-index: 100;
+    }
+    
+    .enlaces{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        right: 0px;
+        flex-direction: column;
+        transition: all 1s ease;
+        background: #f46b45;
+        background: -webkit-linear-gradient(to right, #eea849, #f46b45);
+        background: linear-gradient(to right, #eea849, #f46b45);
+    }
+    
+    .uno{
+        -webkit-clip-path: circle(0% at 100% 0%);
+        clip-path: circle(0% at 100% 0%);
+    }
+    
+    .dos{
+        -webkit-clip-path: circle(150% at 100% 0%);
+        clip-path: circle(150% at 100% 0%);
+    }
+    
+}
+
+@media screen and (max-width: 750px){
+    
+    .icono{
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        align-items: center;
+        color: white;
+        background: transparent;
+        padding: 20px;
+        cursor: pointer;
+        margin-right: 40px;
+        z-index: 100;
+    }
+    
+    .enlaces{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        right: 0px;
+        flex-direction: column;
+        transition: all 1s ease;
+        background: #f46b45;
+        background: -webkit-linear-gradient(to right, #eea849, #f46b45);
+        background: linear-gradient(to right, #eea849, #f46b45);
+    }
+    
+    .uno{
+        -webkit-clip-path: circle(0% at 100% 0%);
+        clip-path: circle(0% at 100% 0%);
+    }
+    
+    .dos{
+        -webkit-clip-path: circle(150% at 100% 0%);
+        clip-path: circle(150% at 100% 0%);
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+    
+    .icono{
+        display: flex;
+        justify-content: center;
+        height: 50px;
+        align-items: center;
+        color: white;
+        background: transparent;
+        padding: 20px;
+        cursor: pointer;
+        margin-right: 20px;
+        z-index: 100;
+    }
+    
+    nav .logo{
+        margin-left: 20px;
+    }
+    
+}

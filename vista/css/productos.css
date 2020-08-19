@@ -1,0 +1,566 @@
+.contenido-productos{
+        width: 100%;
+    }
+    
+.productos{
+    width: 100%;
+}
+    
+.productos > h1{
+    display: block;
+    width: 100%;
+    font-family: Edwardian Script ITC;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background: #6d6d6d;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+} 
+
+.categoria{
+    padding: 10px;
+    margin: 10px;
+}
+    
+.cafeteria{
+    width: 100%;
+    font-family: monospace;
+}
+    
+.cafeteria > h3{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+}
+    
+.info-cafeteria{
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+    
+.img-cafeteria{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+    
+.img-cafeteria > img{
+    width: 250px;
+    height: 275px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+    
+.concepto{
+    margin: 10px;
+    padding: 10px;
+}
+    
+.descripcion-cafeteria{
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.panaderia{
+    width: 100%;
+    font-family: monospace;
+}
+    
+.panaderia > h3{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+}
+    
+.info-panaderia{
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+    
+.descripcion-panaderia{
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+    
+.img-panaderia{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+    
+.img-panaderia > img{
+    width: 250px;
+    height: 275px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+.bebidas{
+    width: 100%;
+    font-family: monospace;
+}
+    
+.bebidas > h3{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+}
+    
+.info-bebidas{
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+    
+.img-bebidas{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+    
+.img-bebidas > img{
+    width: 250px;
+    height: 275px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+    
+.concepto{
+    margin: 10px;
+    padding: 10px;
+}
+    
+.descripcion-bebidas{
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.pasteleria{
+    width: 100%;
+    font-family: monospace;
+}
+    
+.pasteleria > h3{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+}
+    
+.info-pasteleria{
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+    
+.descripcion-pasteleria{
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+    
+.img-pasteleria{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+    
+.img-pasteleria > img{
+    width: 250px;
+    height: 275px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+
+.cofiteria{
+    width: 100%;
+    font-family: monospace;
+}
+    
+.cofiteria > h3{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 50px;
+}
+    
+.info-cofiteria{
+    width: 75%;
+    margin: auto;
+    display: flex;
+}
+    
+.img-cofiteria{
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+    
+.img-cofiteria > img{
+    width: 250px;
+    height: 275px;
+    margin: auto;
+    display: block;
+    padding: 10px;
+}
+    
+.concepto{
+    margin: 10px;
+    padding: 10px;
+}
+    
+.descripcion-cofiteria{
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.especiales{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+}
+    
+.especiales > h3{
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+    
+.contenedor-especial{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    
+.info-especial{
+    margin: 0px;
+}
+    
+.info-especial > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+    
+.info-especial > h3{
+    font-size: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 750px){
+        
+        /* Cafeteria */
+        
+        .cafeteria{
+            padding: 10px;
+        }
+        
+        .cafeteria > h3{
+            padding: 10px;
+        }
+        
+        .info-cafeteria{
+            flex-wrap: wrap;
+        }
+        
+        .img-cafeteria{
+            width: 100%;
+            padding: 0px;
+        }
+        
+        .img-cafeteria > img{
+            width: 250px;
+            height: 250px;
+        }
+        
+        .descripcion-cafeteria{
+            padding: 0px;
+        }
+        
+        /* Panaderia */
+        
+        .panaderia{
+            padding: 10px;
+            margin: 10px auto;
+        }
+        
+        .panaderia > h3{
+            padding: 10px;
+        }
+        
+        .info-panaderia{
+            flex-wrap: wrap;
+        }
+        
+        .descripcion-panaderia{
+            padding: 0px;
+        }
+        
+        .img-panaderia{
+            width: 100%;
+            padding: 0px;
+        }
+        
+        .img-panaderia > img{
+            width: 250px;
+            height: 250px;
+        }
+        
+        /* Bebidas */
+        
+        .bebidas{
+            padding: 10px;
+            margin: 10px auto;
+        }
+        
+        .bebidas > h3{
+            padding: 10px;
+        }
+        
+        .info-bebidas{
+            flex-wrap: wrap;
+        }
+        
+        .img-bebidas{
+            width: 100%;
+            padding: 0px;
+        }
+        
+        .img-bebidas > img{
+            width: 250px;
+            height: 250px;
+        }
+        
+        .descripcion-bebidas{
+            padding: 0px;
+        }
+        
+        /* Panaderia */
+        
+        .pasteleria{
+            padding: 10px;
+            margin: 10px auto;
+        }
+        
+        .pasteleria > h3{
+            padding: 10px;
+        }
+        
+        .info-pasteleria{
+            flex-wrap: wrap;
+        }
+        
+        .descripcion-pasteleria{
+            padding: 0px;
+        }
+        
+        .img-pasteleria{
+            width: 100%;
+            padding: 0px;
+        }
+        
+        .img-pasteleria > img{
+            width: 250px;
+            height: 250px;
+        }
+    
+    .cofiteria{
+            padding: 10px;
+        }
+        
+        .cofiteria > h3{
+            padding: 10px;
+        }
+        
+        .info-cofiteria{
+            flex-wrap: wrap;
+        }
+        
+        .img-cofiteria{
+            width: 100%;
+            padding: 0px;
+        }
+        
+        .img-cofiteria > img{
+            width: 250px;
+            height: 250px;
+        }
+        
+        .descripcion-cofiteria{
+            padding: 0px;
+        }
+        
+    }
+
+@media screen and (max-width: 350px){
+    /* Cafeteria */
+        
+        .cafeteria{
+            padding: 10px;
+        }
+        
+        .cafeteria > h3{
+            padding: 10px;
+            font-size: 40px;
+        }
+        
+    .info-cafeteria{
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        
+        .img-cafeteria > img{
+            width: 175px;
+            height: 175px;
+        }
+    
+    .concepto{
+        width: 100%;
+    }
+        
+        .descripcion-cafeteria{
+            padding: 0px;
+            width: 100%;
+        }
+        
+        /* Panaderia */
+        
+        .panaderia{
+            padding: 10px;
+            margin: 10px auto;
+        }
+        
+        .panaderia > h3{
+            padding: 10px;
+            font-size: 40px;
+        }
+        
+        .info-panaderia{
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        
+        .descripcion-panaderia{
+            padding: 0px;
+            width: 100%;
+        }
+        
+        .img-panaderia{
+            width: 100%;
+            padding: 0px;
+        }
+        
+        .img-panaderia > img{
+            width: 175px;
+            height: 175px;
+        }
+        
+        /* Bebidas */
+        
+        .bebidas{
+            padding: 10px;
+            margin: 10px auto;
+        }
+        
+        .bebidas > h3{
+            padding: 10px;
+            font-size: 40px;
+        }
+        
+        .info-bebidas{
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        
+        .img-bebidas{
+            width: 100%;
+            padding: 0px;
+        }
+        
+        .img-bebidas > img{
+            width: 175px;
+            height: 175px;
+        }
+        
+        .descripcion-bebidas{
+            padding: 0px;
+        }
+        
+        /* Panaderia */
+        
+        .pasteleria{
+            padding: 10px;
+            margin: 10px auto;
+        }
+        
+        .pasteleria > h3{
+            padding: 10px;
+            font-size: 40px;
+        }
+        
+        .info-pasteleria{
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        
+        .descripcion-pasteleria{
+            padding: 0px;
+        }
+        
+        .img-pasteleria{
+            width: 100%;
+            padding: 0px;
+        }
+        
+        .img-pasteleria > img{
+            width: 175px;
+            height: 175px;
+        }
+    
+    .cofiteria{
+            padding: 10px;
+        }
+        
+        .cofiteria > h3{
+            padding: 10px;
+            font-size: 40px;
+        }
+        
+        .info-cofiteria{
+            flex-wrap: wrap;
+            width: 100%;
+        }
+        
+        .img-cofiteria{
+            width: 100%;
+            padding: 0px;
+        }
+        
+        .img-cofiteria > img{
+            width: 175px;
+            height: 175px;
+        }
+        
+        .descripcion-cofiteria{
+            padding: 0px;
+        }
+}

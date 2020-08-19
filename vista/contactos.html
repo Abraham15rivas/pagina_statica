@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contactos</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scale=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <nav id="navegacion-menu">
+                    <div class="logo">
+                        <a href="../index.html"><img src="../img/2.jpg"></a>
+                    </div>
+                    <div class="icono" id="icono">
+                        <!--<span>&#9776;</span>-->
+                        <h3>X</h3>
+                    </div>
+                    <div class="navegacion enlaces uno" id="enlaces">
+                        <a href="trabajo.html" class="activar">¿Buscas Trabajo?</a>
+                        <a href="productos.html">Productos</a>
+                        <a href="catering.html">Catering</a>
+                        <a href="contactos.html">Contactos</a>
+                        <a href="sistema/login.php">login</a>
+                        <a href="compras/vista/index.php">Compras</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="slide-contenedor">
+            <div class="miSlider fade">
+                <img src="../img/3.jpg">
+            </div>
+            <div class="miSlider fade">
+                <img src="../img/4.jpg">
+            </div>
+            <div class="miSlider fade">
+                <img src="../img/5.jpg">
+            </div>
+            <div class="direcciones">
+                <a href="#" class="atras" onclick="avanzaSlide(-1)">&#10094;</a>
+                <a href="#" class="adelante" onclick="avanzaSlide(1)">&#10095;</a>
+            </div>
+            <div class="barras">
+                <span class="barra activo" onclick="posicionSlide(1)"></span>
+                <span class="barra" onclick="posicionSlide(2)"></span>
+                <span class="barra" onclick="posicionSlide(3)"></span>
+            </div>
+        </div>
+        <div class="contenido-contacto">
+            <div class="contacto">
+                <h1>Contactanos</h1>
+                <div class="info-formulario">
+                    <div class="contenedor-formulario">
+                        <form action="" method="post" class="formulario" id="formulario" name="formulario">
+                            <input type="text" class="nombre" id="nombre" name="nombre" placeholder="Nombre">
+                            <input type="text" class="apellido" id="apellido" name="apellido" placeholder="Apellido">
+                            <input type="email" class="correo" id="correo" name="correo" placeholder="Correo Electronico">
+                            <textarea class="mensaje" id="mensaje" name="mensaje" placeholder="Escriba su Mensaje"></textarea>
+                            <button type="submit" class="enviar" id="enviar" name="enviar">Enviar Mensaje</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Slider -->
+        
+        <script type="text/javascript" src="../js/main-slider.js"></script>
+        
+        <!-- Menu adaptable a dispositivo Movil -->
+        
+        <script type="text/javascript" src="../js/main-menu-movil.js"></script>
+        
+        <!-- Menu con efecto Scroll -->
+        
+        <script type="text/javascript" src="../js/main-menu-scroll.js"></script>
+    </body>
+</html>
+
+
+<style>
+    
+    
+    
+</style>

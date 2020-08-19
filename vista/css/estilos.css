@@ -1,0 +1,19 @@
+@import url(../../css/menu.css);
+@import url(../../css/slider.css);
+@import url(../../css/redes-sociales.css);
+@import url(../../css/fontello.css);
+@import url(../../css/galeria.css);
+@import url(trabajo.css);
+@import url(oferta.css);
+@import url(productos.css);
+@import url(catering.css);
+@import url(contactos.css);
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+

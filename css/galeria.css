@@ -1,0 +1,164 @@
+.galeria > h2{
+    display: block;
+    width: 100%;
+    font-family: Edwardian Script ITC;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background: #6d6d6d;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    
+.fondo-slider{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+    
+.slide-galeria{
+    max-width: 100%;
+    max-height: 50vh;
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+    
+.Galeria-slider{
+    display: flex;
+}
+    
+.Galeria-slider > img{
+    width: 100%;
+    height: 50vh;
+    vertical-align: top;
+    transition: 2s;
+    
+}
+    
+.direccionales{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+    
+.direccionales > a{
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+}
+    
+.direccionales > a:hover{
+    background: rgba(0,0,0,.5);
+    transition: .5s;
+    color: white;
+}
+    
+.puntos{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 15px;
+}
+    
+.punto{
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    background: white;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 100%;
+    transition: .3s ease;
+}
+    
+.punto:hover{
+    background: coral;
+}
+    
+.accion{
+    background: coral;
+}
+    
+.faces{
+    animation-name: faces;
+    animation-duration: 1.5s;
+}
+    
+@keyframes faces{
+    from{
+        opacity: .4;
+    } to {
+        opacity: 1;
+    }
+}
+
+.textoSlider{
+    width: 70%;
+    position: absolute;
+    top: 0;
+    color: white;
+    margin: 50px 100px;
+    padding: 10px;
+    display: block;
+    font-family: monospace;
+}
+    
+.textoSlider > h2{
+    padding: 10px;
+    margin: 10px auto;
+    color: white;
+    text-align: justify;
+    font-size: 30px;
+    -webkit-text-stroke: 1.5px black; /* Traso en letras */
+}
+    
+.textoSlider > h3{
+    padding: 10px;
+    margin: 10px auto;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    -webkit-text-stroke: 1.5px black; /* Traso en letras */
+}
+    
+.textoSlider > .botonInfo{
+    padding: 10px;
+    cursor: pointer;
+    position: relative;
+    background: none;
+    z-index: 50;
+    transition: .5s ease;
+    color: white;
+    border: none;
+    display: block;
+    margin-left: 50px;
+    font-size: 25px;
+    font-family: sans-serif;
+    -webkit-text-stroke: 1.5px black; /* Traso en letras */
+}
+    
+.textoSlider > .botonInfo:hover{
+    background: white;
+    color: black;
+}
+
+@media screen and (max-width: 750px){
+    .textoSlider{
+        width: 100%;
+        margin: 75px auto;
+        padding: 20px;
+    }
+}

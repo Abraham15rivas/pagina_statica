@@ -1,0 +1,42 @@
+.redes-sociales > h2{
+    display: block;
+    width: 100%;
+    font-family: Edwardian Script ITC;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background: #6d6d6d;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    
+.fondo-social{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+    
+.link-redes{
+    width: 75%;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+    
+.link-redes > a{
+    color: black;
+    font-size: 50px;
+    padding: 10px;
+    text-decoration: none;
+    transition: all .5s ease;
+    width: 100%;
+}
+    
+.link-redes > a:hover{
+    color: white;
+    background: black;
+    border-radius: 20px;
+}
